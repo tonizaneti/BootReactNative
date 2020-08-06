@@ -1,5 +1,8 @@
 import React from "react";
-import {Text,View} from "react-native";
+import {View, StyleSheet} from "react-native";
+import {ShowList} from "../components/list/ShowList";
+import ShowDetail from "../components/detail/ShowDetail";
+
 
 
 
@@ -23,18 +26,15 @@ const ShowsScreen = ()=>{
 
 const styles = StyleSheet.create({
     parentStyle:{
-        backgroundColor:"red",
         flex:1,
         marginTop:20
 
     },
     listStyle:{
-        backgroundColor:"blue",
         flex:2
 
     },
     detailStyle:{
-        backgroundColor:"yellow",
         flex:1
 
     }
